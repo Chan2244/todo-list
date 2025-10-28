@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+  background-color: rgb(52, 52, 52);
+  color: green;
+}
+
+#listBox div {
+  background-color: #2d3748; /* Slightly lighter dark background for list items */
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cbd5e0; /* Light gray text for list items */
+}
+
+#listBox p {
+  flex-grow: 1;
+  margin-right: 1rem;
+  word-wrap: break-word; /* Ensures long words wrap */
+}
+
+#listBox button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#listBox .edit-btn {
+  background-color: #4c51bf; /* Indigo for edit button */
+  color: white;
+  border: none;
+}
+
+#listBox .edit-btn:hover {
+  background-color: #5a62c7;
+}
+
+#listBox .delete-btn {
+  background-color: #e53e3e; /* Red for delete button */
+  color: white;
+  border: none;
+  margin-left: 0.5rem;
+}
+
+#listBox .delete-btn:hover {
+  background-color: #ef4444;
+}
+
+/* .text-indigo-600 {
+  color: #ff0000 !important;
+} */
